@@ -7,14 +7,14 @@ clc, clear all, close all
 % comment/uncomment below depending on what image you'd like to use
 
 % test image - 1
-img = imread('data/rings-1.png'); 
-center = [485, 485]; a_max = 400; b_max = 400;
-a0 = 10; b0 = 10;
+% img = imread('data/rings-1.png'); 
+% center = [485, 485]; a_max = 400; b_max = 400;
+% a0 = 10; b0 = 10;
 
 % test image - 2
-% img = imread('data/calib-1.png'); 
-% center = [385, 427]; a_max = 300; b_max = 300;
-% a0 = 10; b0 = 10;
+img = imread('data/calib-1.png'); 
+center = [385, 427]; a_max = 300; b_max = 300;
+a0 = 10; b0 = 10;
 
 % test image - 3
 % img = imread('data/test-1.png'); 
